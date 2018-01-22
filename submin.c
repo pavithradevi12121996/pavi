@@ -1,9 +1,7 @@
 #include<stdio.h>
 int main()
 {
-int a;
-int b;
-int c;
+int a,b,c;
 printf("enter value for a,b);
 scanf("%d%d",&a,&b);
 c=a-b;
