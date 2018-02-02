@@ -4,7 +4,7 @@ int main()
 char [10]="hello";
 for(i=0;i<5;i++)
 {
-printf("%s",hello");
+printf("%s",a[i]);
 }
 return 0;
 }
