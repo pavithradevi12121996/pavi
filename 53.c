@@ -1,16 +1,15 @@
-
 #include<stdio.h>
-int main()
+#include<conio.h>
+void main()
 {
-int a,b[20],i,sum=0;
-printf("\nenter no of elements");
-scanf("%d",&a);
-for(i=1;i<a;i++)
-{
-scanf("%d",&b[i]);
-printf("\nelements are %d",b[i]);
-sum=(sum+i);
-}
-printf("\nsum is %d",sum);
-return 0;
-}
+int d,a,b,c,e,f;
+clrscr();
+printf("enter digits");
+scanf("%d",&d);
+a=d/10;
+c=a%10;
+e=a/10;
+f=d%10;
+printf("sum is %d",c+e+f);
+getch();
+ }
