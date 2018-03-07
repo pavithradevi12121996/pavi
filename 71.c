@@ -2,14 +2,13 @@
 #include<string.h>
 void main()
 {
-char a[100],b[100];
+char b[100],c[100];
 int n;
 clrscr();
 printf("enter the input");
-scanf("%s",a);
-strcpy(b,a);
-strrev(a);
-n=strcmp(a,b);
+scanf("%s",b);
+strcpy(c,b);
+n=strcmp(c,b);
 if(n==0)
 {
 printf("YES");
