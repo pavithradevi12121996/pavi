@@ -2,12 +2,12 @@
 #include<conio.h>
 void main()
 {
-int n;
+int i;
 printf("enter number");
-scanf("%d",&n);
-if(n%n==0)
+scanf("%d",&i);
+if(i%i==0)
 {
-if(n/1==n)
+if(i/1==i)
 {
 printf("number is prime");
 }
